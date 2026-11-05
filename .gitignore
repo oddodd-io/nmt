@@ -15,3 +15,5 @@ Thumbs.db
 .playwright-mcp/
 .wrangler/
 images/cc-log-*.gz
+
+blog/
