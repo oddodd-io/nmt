@@ -79,7 +79,7 @@ export async function onRequestPost(context) {
   let notified = false;
   if (env.SOLAPI_API_KEY && env.SOLAPI_API_SECRET && env.OWNER_PHONE && env.SENDER_PHONE) {
     const text =
-      `[네모맨 견적문의]\n` +
+      `[네모테크 견적문의]\n` +
       `${name} / ${phone}\n` +
       `${region} · ${TYPE[data.type] || '-'} · ${data.size || '-'}평 · ${SCOPE[data.scope] || '-'}\n` +
       (est.min != null ? `예상 ${est.min.toLocaleString()}~${est.max.toLocaleString()}만원\n` : '') +

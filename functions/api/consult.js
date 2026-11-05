@@ -128,7 +128,7 @@ export async function onRequestPost(context) {
   let notified = false;
   if (hasSolapiEnv(env)) {
     const text =
-      `[공간F5 상담] ${KIND[kind]}\n` +
+      `[네모테크 상담] ${KIND[kind]}\n` +
       `${name || '-'} / ${phone}\n` +
       `${region} · ${scope.length ? scope.join(',') : '-'}\n` +
       (files.length && !photoKeys.length ? `사진 ${files.length}장 첨부(저장 안 됨 · 문자로 요청)\n` : `사진 ${photoKeys.length}장\n`) +

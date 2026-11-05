@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin.html
 Disallow: /api/
 
-Sitemap: https://nemoman.pages.dev/sitemap.xml
+Sitemap: https://nmt.kr/sitemap.xml
