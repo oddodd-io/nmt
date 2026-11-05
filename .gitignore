@@ -10,3 +10,8 @@ Thumbs.db
 
 # OMC 내부 상태 (추적 제외)
 .omc/
+
+# 도구 생성 임시 파일
+.playwright-mcp/
+.wrangler/
+images/cc-log-*.gz
